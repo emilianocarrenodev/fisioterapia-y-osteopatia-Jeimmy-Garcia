@@ -13162,7 +13162,9 @@ span {
 * {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 16px; }
+  font-size: 16px;
+  box-shadow: none !important;
+  outline: 0px !important; }
 
 a {
   text-decoration: none !important;
@@ -13191,6 +13193,220 @@ section {
 /*Parrafos*/
 /*Botones*/
 /*Formularios*/
+header .navbar {
+  background-color: transparent !important; }
+  @media only screen and (max-width: 479px) {
+    header .navbar .navbar-brand .img-fluid {
+      width: 100px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    header .navbar .navbar-brand .img-fluid {
+      width: 100px; } }
+  @media only screen and (min-width: 768px) and (max-width: 849px) {
+    header .navbar .navbar-brand .img-fluid {
+      width: 100px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    header .navbar .navbar-brand .img-fluid {
+      width: 100px; } }
+  header .navbar .navbar-toggler {
+    background-color: #FFF; }
+  header .navbar .navbar-collapse .container-menu {
+    width: 100%; }
+    @media only screen and (max-width: 479px) {
+      header .navbar .navbar-collapse .container-menu {
+        margin-top: 10px;
+        padding: 15px 15px 5px 15px;
+        background: #0090a5; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      header .navbar .navbar-collapse .container-menu {
+        margin-top: 10px;
+        padding: 15px 15px 5px 15px;
+        background: #0090a5; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      header .navbar .navbar-collapse .container-menu {
+        margin-top: 10px;
+        padding: 15px 15px 5px 15px;
+        background: #0090a5; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      header .navbar .navbar-collapse .container-menu {
+        margin-top: 10px;
+        padding: 15px 15px 5px 15px;
+        background: #0090a5; } }
+    header .navbar .navbar-collapse .container-menu .nav {
+      margin-bottom: 25px; }
+      @media only screen and (max-width: 479px) {
+        header .navbar .navbar-collapse .container-menu .nav {
+          width: 100%;
+          margin-bottom: 0px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        header .navbar .navbar-collapse .container-menu .nav {
+          width: 100%;
+          margin-bottom: 0px; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        header .navbar .navbar-collapse .container-menu .nav {
+          width: 100%;
+          margin-bottom: 0px; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        header .navbar .navbar-collapse .container-menu .nav {
+          width: 100%;
+          margin-bottom: 0px; } }
+      header .navbar .navbar-collapse .container-menu .nav .nav-item {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-box-pack: center;
+                justify-content: center;
+        -webkit-box-align: end;
+                align-items: flex-end; }
+        @media only screen and (max-width: 479px) {
+          header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 {
+            width: 100%;
+            margin-bottom: 15px;
+            padding-right: 0px !important;
+            -webkit-box-align: center;
+                    align-items: center; }
+            header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 .nav-link {
+              padding-left: 0px !important; } }
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 {
+            width: 100%;
+            margin-bottom: 15px;
+            padding-right: 0px !important;
+            -webkit-box-align: center;
+                    align-items: center; }
+            header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 .nav-link {
+              padding-left: 0px !important; } }
+        @media only screen and (min-width: 768px) and (max-width: 849px) {
+          header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 {
+            width: 100%;
+            margin-bottom: 15px;
+            padding-right: 0px !important;
+            -webkit-box-align: center;
+                    align-items: center; }
+            header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 .nav-link {
+              padding-left: 0px !important; } }
+        @media only screen and (min-width: 850px) and (max-width: 990px) {
+          header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 {
+            width: 100%;
+            margin-bottom: 15px;
+            padding-right: 0px !important;
+            -webkit-box-align: center;
+                    align-items: center; }
+            header .navbar .navbar-collapse .container-menu .nav .nav-item.pr-5 .nav-link {
+              padding-left: 0px !important; } }
+        header .navbar .navbar-collapse .container-menu .nav .nav-item .nav-link {
+          padding: 0px 0px 0px 14px;
+          line-height: 23px;
+          font-weight: 400;
+          font-size: 21px;
+          color: #A8BB26; }
+          header .navbar .navbar-collapse .container-menu .nav .nav-item .nav-link .img-fluid {
+            width: auto;
+            height: 29px; }
+            @media only screen and (max-width: 479px) {
+              header .navbar .navbar-collapse .container-menu .nav .nav-item .nav-link .img-fluid.mr-3 {
+                margin-right: 5px !important; } }
+            @media only screen and (min-width: 480px) and (max-width: 767px) {
+              header .navbar .navbar-collapse .container-menu .nav .nav-item .nav-link .img-fluid.mr-3 {
+                margin-right: 5px !important; } }
+            @media only screen and (min-width: 768px) and (max-width: 849px) {
+              header .navbar .navbar-collapse .container-menu .nav .nav-item .nav-link .img-fluid.mr-3 {
+                margin-right: 5px !important; } }
+            @media only screen and (min-width: 850px) and (max-width: 990px) {
+              header .navbar .navbar-collapse .container-menu .nav .nav-item .nav-link .img-fluid.mr-3 {
+                margin-right: 5px !important; } }
+    header .navbar .navbar-collapse .container-menu .navbar-nav {
+      width: 150%;
+      margin-right: -50%;
+      padding-right: 50%;
+      background: transparent -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.2)), to(rgba(0, 144, 165, 0.2))) top left no-repeat;
+      background: transparent linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 144, 165, 0.2) 100%) top left no-repeat; }
+      @media only screen and (max-width: 479px) {
+        header .navbar .navbar-collapse .container-menu .navbar-nav {
+          width: 100%;
+          margin-right: 0px;
+          padding-right: 0px;
+          background: transparent; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        header .navbar .navbar-collapse .container-menu .navbar-nav {
+          width: 100%;
+          margin-right: 0px;
+          padding-right: 0px;
+          background: transparent; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        header .navbar .navbar-collapse .container-menu .navbar-nav {
+          width: 100%;
+          margin-right: 0px;
+          padding-right: 0px;
+          background: transparent; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        header .navbar .navbar-collapse .container-menu .navbar-nav {
+          width: 100%;
+          margin-right: 0px;
+          padding-right: 0px;
+          background: transparent; } }
+      header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item {
+        margin-right: 42px; }
+        @media only screen and (max-width: 479px) {
+          header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item {
+            width: 100%;
+            margin-right: 0px; } }
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item {
+            width: 100%;
+            margin-right: 0px; } }
+        @media only screen and (min-width: 768px) and (max-width: 849px) {
+          header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item {
+            width: 100%;
+            margin-right: 0px; } }
+        @media only screen and (min-width: 850px) and (max-width: 990px) {
+          header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item {
+            width: 100%;
+            margin-right: 0px; } }
+        header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item .nav-link {
+          padding: 13px 0px 0px 0px;
+          border-bottom: 5px solid transparent;
+          text-transform: uppercase;
+          letter-spacing: 0;
+          font-weight: 400;
+          line-height: 25px;
+          font-size: 18px;
+          color: #0090A5;
+          opacity: 1; }
+          @media only screen and (max-width: 479px) {
+            header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item .nav-link {
+              color: #FFF; } }
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+            header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item .nav-link {
+              color: #FFF; } }
+          @media only screen and (min-width: 768px) and (max-width: 849px) {
+            header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item .nav-link {
+              color: #FFF; } }
+          @media only screen and (min-width: 850px) and (max-width: 990px) {
+            header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item .nav-link {
+              color: #FFF; } }
+          header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item .nav-link:hover {
+            border-bottom: 5px solid #A8BD24; }
+        header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item.active .nav-link {
+          border-bottom: 5px solid #A8BD24; }
+        header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item:last-child {
+          margin-right: 0px; }
+          header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item:last-child .nav-link {
+            padding-right: 0px; }
+        header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item.dropdown .dropdown-menu {
+          border: 1px solid #A8BD24;
+          border-radius: 0px; }
+          header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {
+            padding: 2px 15px;
+            font-weight: 400;
+            line-height: 25px;
+            font-size: 18px;
+            color: #0090A5; }
+            header .navbar .navbar-collapse .container-menu .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+              background-color: transparent;
+              color: #A8BD24; }
+
 .block-banner-main .swiper-container .swiper-wrapper .swiper-slide {
   text-align: center;
   background-color: #FFF;
@@ -13198,7 +13414,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat; }
   .block-banner-main .swiper-container .swiper-wrapper .swiper-slide .container {
-    min-height: 1024px;
+    min-height: 780px;
     padding-top: 200px;
     padding-bottom: 30px;
     display: -webkit-box;
@@ -13208,8 +13424,8 @@ section {
             flex-direction: column;
     -webkit-box-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-            align-items: center; }
+    -webkit-box-align: start;
+            align-items: flex-start; }
     @media only screen and (max-width: 479px) {
       .block-banner-main .swiper-container .swiper-wrapper .swiper-slide .container {
         min-height: 300px;
@@ -13222,16 +13438,13 @@ section {
       .block-banner-main .swiper-container .swiper-wrapper .swiper-slide .container {
         min-height: 600px;
         padding-top: 110px; } }
-    @media only screen and (min-width: 850px) and (max-width: 990px) {
-      .block-banner-main .swiper-container .swiper-wrapper .swiper-slide .container {
-        min-height: 900px;
-        padding-top: 110px; } }
-    .block-banner-main .swiper-container .swiper-wrapper .swiper-slide .container p {
-      text-transform: uppercase;
-      line-height: 39px;
-      font-weight: 300;
-      font-size: 32px;
-      color: #FFF; }
+    .block-banner-main .swiper-container .swiper-wrapper .swiper-slide .container h1 {
+      text-align: left;
+      line-height: 50px;
+      font-size: 30px;
+      color: #006B87; }
+      .block-banner-main .swiper-container .swiper-wrapper .swiper-slide .container h1 span {
+        font-size: 40px; }
 
 .block-banner-main .swiper-container .swiper-pagination {
   margin-top: -38px;
