@@ -1,0 +1,106 @@
+.block-contact-main {
+    padding: 40px 0px 60px 0px;
+    background: transparent url('../img/bg-contact.png') top left repeat;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px;
+    }
+
+    .form-group {
+        margin-bottom: 16px;
+
+        .form-control {
+            height: auto;
+            padding: 20px;
+            border: 2px solid #90a1a6;
+            background-color: transparent;
+            line-height: 19px;
+            font-size: 16px;
+            color: #90a1a6;
+
+            &::-webkit-input-placeholder {
+                line-height: 19px;
+                font-size: 16px;
+                color: #90a1a6;
+            }
+
+            &:-ms-input-placeholder {
+                line-height: 19px;
+                font-size: 16px;
+                color: #90a1a6;
+            }
+
+            &::placeholder {
+                line-height: 19px;
+                font-size: 16px;
+                color: #90a1a6;
+            }
+        }
+
+        small {
+            padding-left: 15px;
+            line-height: 16px;
+            font-size: 12px;
+            color: #072B33;
+        }
+
+        .btn-primary {
+            width: 100%;
+            max-width: 206px;
+            padding: 13px 15px;
+            margin-top: 42px;
+            border: 1px solid #0090A5;
+            background-color: #0090A5;
+            text-transform: uppercase;
+            line-height: 22px;
+            font-size: 23px;
+            color: #FFF;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($medium-large) {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            &:hover {
+                border: 1px solid #A8BB26;
+                background-color: #A8BB26;
+                color: #FFF;
+            }
+        }
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+        border: none;
+    }
+}
