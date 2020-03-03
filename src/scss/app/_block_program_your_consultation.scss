@@ -1,0 +1,119 @@
+.block-program-your-consultation {
+    padding: 95px 0px 0px 0px;
+    text-align: center;
+    background-color: #FFF;
+    background-image: url('../img/bg-block-program-your-consultation.png'), url('../img/image-block-program-your-consultation.png');
+    background-size: 1px 1px, cover;
+    background-repeat: repeat, no-repeat;
+    background-position: top left, center center;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px 0px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px 0px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px 0px 0px;
+    }
+
+    h2 {
+        margin-top: 17px;
+        margin-bottom: 17px;
+        text-transform: uppercase;
+        line-height: 40px;
+        font-size: 38px;
+        color: #FFF;
+    }
+
+    h3 {
+        margin-bottom: 17px;
+        text-transform: uppercase;
+        line-height: 19px;
+        font-size: 16px;
+        color: #FFF;
+    }
+
+    .btn-link {
+        padding: 13px 26px;
+        margin-bottom: 28px;
+        background-color: #FFF;
+        text-transform: uppercase;
+        line-height: 17px;
+        color: #0090A5;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+
+        &:hover {
+            background-color: #A8BB26;
+            color: #FFF;
+        }
+    }
+
+    .container-menu-footer {
+        width: 100%;
+        padding: 14px 15px;
+        margin-top: 82px;
+        background-color: #A8BB26;
+
+        // Breakpoints
+        @include respond-to($phone) {
+            margin-top: 60px;
+        }
+
+        @include respond-to($phone-tablet) {
+            margin-top: 60px;
+        }
+
+        @include respond-to($tablet-medium) {
+            margin-top: 60px;
+        }
+
+        .nav {
+
+            .nav-item {
+                margin-right: 42px;
+
+                // Breakpoints
+                @include respond-to($phone) {
+                    width: 100%;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                }
+
+                @include respond-to($phone-tablet) {
+                    width: 100%;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                }
+
+                @include respond-to($tablet-medium) {
+                    width: 100%;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                }
+
+                .nav-link {
+                    padding: 0px;
+                    text-transform: uppercase;
+                    line-height: 25px;
+                    color: #FFF;
+
+                    &:hover,
+                    &.active {
+                        color: #0090A5;
+                    }
+                }
+
+                &:last-child {
+                    margin-right: 0px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}

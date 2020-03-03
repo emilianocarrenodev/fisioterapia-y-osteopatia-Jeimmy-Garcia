@@ -1,0 +1,108 @@
+.block-our-team {
+    padding: 97px 0px 49px 0px;
+    background-color: #FFF;
+    background-image: url('../img/bg-nuestro-equipo.png'), url('../img/bg-left-nuestro-equipo.png'), url('../img/bg-right-nuestro-equipo.png');
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-position: left top, left 50px, right 250px;
+    background-size: 1px 1px, auto auto, auto auto;
+    text-align: center;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 60px 0px;
+        background-size: 1px 1px, 200px auto, 200px auto;
+        background-position: left top, left 50px, right bottom;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 60px 0px;
+        background-size: 1px 1px, 200px auto, 200px auto;
+        background-position: left top, left 50px, right bottom;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 60px 0px;
+        background-size: 1px 1px, 200px auto, 200px auto;
+        background-position: left top, left 50px, right bottom;
+    }
+
+    .container {
+        max-width: 550px;
+
+        h2 {
+            margin-bottom: 31px;
+            text-transform: uppercase;
+            line-height: 98px;
+            font-size: 69px;
+            color: #072B33;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                line-height: 50px;
+                font-size: 40px;
+            }
+
+            @include respond-to($phone-tablet) {
+                line-height: 50px;
+                font-size: 40px;
+            }
+
+            @include respond-to($tablet-medium) {
+                line-height: 50px;
+                font-size: 40px;
+            }
+        }
+
+        p {
+            margin-bottom: 76px;
+            line-height: 24px;
+            font-size: 16px;
+            color: #072B33;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-bottom: 30px;
+            }
+        }
+
+        .btn-info {
+            padding: 10px 13px;
+            margin-bottom: 60px;
+            background-color: #0090A5;
+            text-transform: uppercase;
+            line-height: 22px;
+            font-size: 23px;
+            color: #FFF;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+
+            // Breakpoints
+            @include respond-to($phone) {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($phone-tablet) {
+                margin-bottom: 30px;
+            }
+
+            @include respond-to($tablet-medium) {
+                margin-bottom: 30px;
+            }
+
+            &:hover {
+                border: 1px solid #A8BB26;
+                background-color: #A8BB26;
+                color: #FFF;
+            }
+        }
+    }
+}
