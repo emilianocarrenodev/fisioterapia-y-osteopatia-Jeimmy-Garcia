@@ -1,0 +1,17 @@
+.block-physiotherapy-treatments {
+    padding: 235px 0px 60px 0px;
+    background-color: #FFF;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        padding: 150px 0px 60px 0px;
+    }
+
+    @include respond-to($phone-tablet) {
+        padding: 150px 0px 60px 0px;
+    }
+
+    @include respond-to($tablet-medium) {
+        padding: 150px 0px 60px 0px;
+    }
+}
