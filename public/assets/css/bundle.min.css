@@ -14202,8 +14202,8 @@ footer .block-bottom {
         padding-top: 0px; } }
 
 .block-physiotherapy-treatments {
-  padding: 235px 0px 60px 0px;
-  background-color: #FFF; }
+  padding: 235px 0px 70px 0px;
+  background: #FFF url("../img/bg-image-empresa-2.png") right 1700px/auto auto no-repeat; }
   @media only screen and (max-width: 479px) {
     .block-physiotherapy-treatments {
       padding: 150px 0px 60px 0px; } }
@@ -14213,6 +14213,300 @@ footer .block-bottom {
   @media only screen and (min-width: 768px) and (max-width: 849px) {
     .block-physiotherapy-treatments {
       padding: 150px 0px 60px 0px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    .block-physiotherapy-treatments {
+      padding: 150px 0px 60px 0px; } }
+  .block-physiotherapy-treatments .bg-main {
+    min-height: 1630px;
+    background: transparent url("../img/bg-empresa.png") left top/100% 100% no-repeat; }
+    @media only screen and (max-width: 479px) {
+      .block-physiotherapy-treatments .bg-main {
+        min-height: auto;
+        padding: 60px 0px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-physiotherapy-treatments .bg-main {
+        min-height: auto;
+        padding: 60px 0px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-physiotherapy-treatments .bg-main {
+        min-height: auto;
+        padding: 60px 0px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-physiotherapy-treatments .bg-main {
+        min-height: auto;
+        padding: 60px 0px; } }
+    .block-physiotherapy-treatments .bg-main.mt-5 {
+      margin-top: 74px !important; }
+      @media only screen and (max-width: 479px) {
+        .block-physiotherapy-treatments .bg-main.mt-5 {
+          margin-top: 30px !important; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .block-physiotherapy-treatments .bg-main.mt-5 {
+          margin-top: 30px !important; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        .block-physiotherapy-treatments .bg-main.mt-5 {
+          margin-top: 30px !important; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        .block-physiotherapy-treatments .bg-main.mt-5 {
+          margin-top: 30px !important; } }
+    .block-physiotherapy-treatments .bg-main .container-p-main {
+      padding: 0px 50px 0px 127px; }
+      @media only screen and (max-width: 479px) {
+        .block-physiotherapy-treatments .bg-main .container-p-main {
+          padding: 60px 15px 10px 15px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .block-physiotherapy-treatments .bg-main .container-p-main {
+          padding: 60px 15px 10px 15px; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        .block-physiotherapy-treatments .bg-main .container-p-main {
+          padding: 60px 15px 10px 15px; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        .block-physiotherapy-treatments .bg-main .container-p-main {
+          padding: 60px 15px 10px 15px; } }
+      .block-physiotherapy-treatments .bg-main .container-p-main.type-two {
+        padding-left: 92px; }
+        @media only screen and (max-width: 479px) {
+          .block-physiotherapy-treatments .bg-main .container-p-main.type-two {
+            padding-top: 0px;
+            padding-left: 15px; } }
+        @media only screen and (min-width: 480px) and (max-width: 767px) {
+          .block-physiotherapy-treatments .bg-main .container-p-main.type-two {
+            padding-top: 0px;
+            padding-left: 15px; } }
+        @media only screen and (min-width: 768px) and (max-width: 849px) {
+          .block-physiotherapy-treatments .bg-main .container-p-main.type-two {
+            padding-top: 0px;
+            padding-left: 15px; } }
+        @media only screen and (min-width: 850px) and (max-width: 990px) {
+          .block-physiotherapy-treatments .bg-main .container-p-main.type-two {
+            padding-top: 0px;
+            padding-left: 15px; } }
+    .block-physiotherapy-treatments .bg-main .row {
+      margin-top: 160px;
+      margin-bottom: 40px; }
+      @media only screen and (max-width: 479px) {
+        .block-physiotherapy-treatments .bg-main .row {
+          margin-top: 30px;
+          margin-bottom: 30px; } }
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .block-physiotherapy-treatments .bg-main .row {
+          margin-top: 30px;
+          margin-bottom: 30px; } }
+      @media only screen and (min-width: 768px) and (max-width: 849px) {
+        .block-physiotherapy-treatments .bg-main .row {
+          margin-top: 30px;
+          margin-bottom: 30px; } }
+      @media only screen and (min-width: 850px) and (max-width: 990px) {
+        .block-physiotherapy-treatments .bg-main .row {
+          margin-top: 30px;
+          margin-bottom: 30px; } }
+      .block-physiotherapy-treatments .bg-main .row ul {
+        list-style: none;
+        padding-left: 15px;
+        margin-bottom: 0px; }
+        .block-physiotherapy-treatments .bg-main .row ul li {
+          min-height: 41px;
+          padding-left: 60px;
+          margin-bottom: 30px;
+          background: transparent url("../img/icon-list-physiotherapy-treatments.png") left top no-repeat;
+          line-height: 24px;
+          font-weight: 400;
+          font-size: 18px;
+          color: #006B87; }
+  .block-physiotherapy-treatments .content-image {
+    width: 140%;
+    height: 400px;
+    float: left;
+    position: relative;
+    margin-left: -20%;
+    margin-right: -20%;
+    background-color: red;
+    background-color: #FFF;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1; }
+    @media only screen and (max-width: 479px) {
+      .block-physiotherapy-treatments .content-image {
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 0px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-physiotherapy-treatments .content-image {
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 0px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-physiotherapy-treatments .content-image {
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 0px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-physiotherapy-treatments .content-image {
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 0px; } }
+  .block-physiotherapy-treatments .container-left-main {
+    width: 100%;
+    margin-top: 117px;
+    padding-right: 15px;
+    float: left;
+    position: relative; }
+    @media only screen and (max-width: 479px) {
+      .block-physiotherapy-treatments .container-left-main {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-physiotherapy-treatments .container-left-main {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-physiotherapy-treatments .container-left-main {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-physiotherapy-treatments .container-left-main {
+        margin-top: 30px; } }
+  .block-physiotherapy-treatments .img-fluid {
+    width: 100%;
+    margin-top: 109px; }
+    @media only screen and (max-width: 479px) {
+      .block-physiotherapy-treatments .img-fluid {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-physiotherapy-treatments .img-fluid {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-physiotherapy-treatments .img-fluid {
+        margin-top: 30px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-physiotherapy-treatments .img-fluid {
+        margin-top: 30px; } }
+  .block-physiotherapy-treatments h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 38px;
+    color: #707070; }
+    @media only screen and (max-width: 479px) {
+      .block-physiotherapy-treatments h1 {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-physiotherapy-treatments h1 {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-physiotherapy-treatments h1 {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-physiotherapy-treatments h1 {
+        margin-bottom: 30px; } }
+  .block-physiotherapy-treatments h2 {
+    margin-bottom: 35px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 30px;
+    color: #006B87; }
+    @media only screen and (max-width: 479px) {
+      .block-physiotherapy-treatments h2 {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-physiotherapy-treatments h2 {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-physiotherapy-treatments h2 {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 850px) and (max-width: 990px) {
+      .block-physiotherapy-treatments h2 {
+        margin-bottom: 30px; } }
+    .block-physiotherapy-treatments h2 span {
+      font-size: 40px; }
+  .block-physiotherapy-treatments p {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+    color: #072B33; }
+  .block-physiotherapy-treatments h3 {
+    margin-top: 60px;
+    text-transform: uppercase;
+    line-height: 53px;
+    font-weight: 300;
+    font-size: 38px;
+    color: #343434; }
+  .block-physiotherapy-treatments .btn-info {
+    padding: 13px 22px;
+    border: 1px solid #0090A5;
+    background-color: #0090A5;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 23px;
+    color: #FFF;
+    border-radius: 30px; }
+    @media only screen and (max-width: 479px) {
+      .block-physiotherapy-treatments .btn-info {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-physiotherapy-treatments .btn-info {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-physiotherapy-treatments .btn-info {
+        margin-bottom: 30px; } }
+    .block-physiotherapy-treatments .btn-info:hover {
+      border: 1px solid #A8BB26;
+      background-color: #A8BB26;
+      color: #FFF; }
+
+.block-osteopatia-treatments {
+  padding: 235px 0px 70px 0px;
+  background: #FFF url("../img/bg-image-empresa-2.png") right 1700px/auto auto no-repeat; }
+  @media only screen and (max-width: 479px) {
+    .block-osteopatia-treatments {
+      padding: 150px 0px 60px 0px; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .block-osteopatia-treatments {
+      padding: 150px 0px 60px 0px; } }
+  @media only screen and (min-width: 768px) and (max-width: 849px) {
+    .block-osteopatia-treatments {
+      padding: 150px 0px 60px 0px; } }
+  @media only screen and (min-width: 850px) and (max-width: 990px) {
+    .block-osteopatia-treatments {
+      padding: 150px 0px 60px 0px; } }
+  .block-osteopatia-treatments p {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+    color: #072B33; }
+  .block-osteopatia-treatments h3 {
+    margin-top: 60px;
+    text-transform: uppercase;
+    line-height: 53px;
+    font-weight: 300;
+    font-size: 38px;
+    color: #343434; }
+  .block-osteopatia-treatments .btn-info {
+    padding: 13px 22px;
+    border: 1px solid #0090A5;
+    background-color: #0090A5;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 23px;
+    color: #FFF;
+    border-radius: 30px; }
+    @media only screen and (max-width: 479px) {
+      .block-osteopatia-treatments .btn-info {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+      .block-osteopatia-treatments .btn-info {
+        margin-bottom: 30px; } }
+    @media only screen and (min-width: 768px) and (max-width: 849px) {
+      .block-osteopatia-treatments .btn-info {
+        margin-bottom: 30px; } }
+    .block-osteopatia-treatments .btn-info:hover {
+      border: 1px solid #A8BB26;
+      background-color: #A8BB26;
+      color: #FFF; }
 
 
 /*# sourceMappingURL=bundle.min.css.map*/
