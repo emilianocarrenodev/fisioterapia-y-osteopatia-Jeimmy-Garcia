@@ -1,3 +1,4 @@
+<?php $lang = (empty($_GET['lang']) || $_GET['lang'] == 'es')? true : false; $menu = 'tratamientos'; ?>
 <!doctype html>
 <html lang="en">
 
@@ -13,7 +14,7 @@
 </head>
 
 <body data-page="#page-index">
-    <header class="fixed-top"></header>
+    <?php require_once('header.php') ?>
     <!--Bloque tratamientos fisioterapia-->
     <section class="block-physiotherapy-treatments">
         <div class="container">
@@ -57,60 +58,16 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h3>OSTEOPATÍA</h3>
-                    <a href="" target="_self" class="btn btn-info">VER TRATAMIENTOS</a>
+                    <a href="./tratamientos-osteopatia.php" target="_self" class="btn btn-info">VER TRATAMIENTOS</a>
                 </div>
             </div>
         </div>
     </section>
     <!--Fin bloque tratamientos fisioterapia-->
     <!--Bloque programa tu consulta-->
-    <section class="block-program-your-consultation">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <img src="./assets/img/icon-calendar.png" class="img-fluid">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <h2>PROGRAMA TU CONSULTA</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <a href="" target="_self" class="btn btn-link">CONTÁCTANOS</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <h3>MEDIOS DE PAGO</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <img src="./assets/img/icon-credit-card.png" class="img-fluid">
-                </div>
-            </div>
-        </div>
-        <div class="container-menu-footer">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">INICIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">EMPRESA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">TRATAMIENTOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTÁCTO</a>
-                </li>
-            </ul>
-        </div>
-    </section>
+    <?php require_once('block-program-your-consultation.php') ?>
     <!--Fin bloque programa tu consulta-->
-    <footer></footer>
+    <?php require_once('footer.php') ?>
     <script type="text/javascript" src="./assets/js/bundle.min.js"></script>
 </body>
 

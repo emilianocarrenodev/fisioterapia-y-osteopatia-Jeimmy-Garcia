@@ -3,15 +3,6 @@ import 'bootstrap';
 import { WOW } from 'wowjs';
 import { Swiper } from 'swiper/js/swiper.esm.js';
 
-var wow = new WOW({
-    live: false,
-    scrollContainer: null
-});
-
-$('header').load("header.html");
-
-$('footer').load("footer.html");
-
 if ($.contains(document.body, document.getElementById('slider-main'))) {
 
     var mySwiper = new Swiper('.swiper-container', {
@@ -22,4 +13,37 @@ if ($.contains(document.body, document.getElementById('slider-main'))) {
     });
 }
 
-wow.init();
+$(document).on('submit', '#form-contact', function(event) {
+    event.preventDefault();
+
+    $('#form-contact .btn-primary').addClass('disabled');
+
+    $.ajax({
+        cache: false,
+        type: $(this).attr("method"),
+        url: $(this).attr("action"),
+        data: $(this).serialize(),
+        success: function(data) {
+
+            $('.alert').hide();
+            $('#form-contact .btn-primary').removeClass('disabled');
+
+            if (data)
+            {
+                $('.alert-success').fadeIn();
+                $("#form-contact")[0].reset();
+            }
+            else
+            {
+                $('.alert-danger').fadeIn();
+            }
+
+            setTimeout(function() { $('.alert').hide(); }, 5000);
+        }
+    });
+});
+
+var wow = new WOW({
+    live: false,
+    scrollContainer: null
+}).init();

@@ -34,12 +34,29 @@ section {
     position: relative;
 }
 
-/*padding y margin*/
-
-/*Titulos*/
-
-/*Parrafos*/
-
 /*Botones*/
+.btn-whatsapp {
+    top: 300px;
+    right: 0px;
+    position: fixed;
+    padding: 43px 21px 10px 15px;
+    background: rgba(0, 107, 135, 0.75) url('../img/icon-whatsapp.png') 32px 10px no-repeat;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: 14px;
+    font-size: 13px;
+    color: #FFF;
+    z-index: 99999;
 
-/*Formularios*/
+    span {
+        font-size: 16px;
+    }
+
+    &:hover {
+        color: #A8BB26;
+    }
+}

@@ -1,3 +1,4 @@
+<?php $lang = (empty($_GET['lang']) || $_GET['lang'] == 'es')? true : false; $menu = 'contacto'; ?>
 <!doctype html>
 <html lang="en">
 
@@ -13,7 +14,7 @@
 </head>
 
 <body data-page="#page-index">
-    <header class="fixed-top"></header>
+    <?php require_once('header.php') ?>
     <!--Bloque titulo contacto-->
     <section class="block-contact-title">
         <div class="container">
@@ -36,7 +37,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-5">
-                    <form>
+                    <form id="form-contact" action="sendmail.php" method="POST">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Nombre" aria-describedby="help-name" required>
                             <small id="help-name" class="form-text text-muted">Tu nombre completo</small>
@@ -53,6 +54,14 @@
                             <textarea class="form-control" rows="5" placeholder="Mensaje" aria-describedby="help-message" required></textarea>
                             <small id="help-message" class="form-text text-muted">Escribe el motivo de tu cita</small>
                         </div>
+                        <div class="form-group">
+                            <div class="alert alert-success" role="alert">
+                                Mensaje enviado con exito!!!
+                            </div>
+                            <div class="alert alert-danger" role="alert">
+                                Error, intente de nuevo por favor!!!
+                            </div>
+                        </div>
                         <div class="form-group text-center">
                             <button type="submit" class="btn btn-primary">ENVIAR</button>
                         </div>
@@ -65,7 +74,7 @@
         </div>
     </section>
     <!--Fin bloque principal contacto-->
-    <footer></footer>
+    <?php require_once('footer.php') ?>
     <script type="text/javascript" src="./assets/js/bundle.min.js"></script>
 </body>
 
