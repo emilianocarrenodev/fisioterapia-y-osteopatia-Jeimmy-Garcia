@@ -1,4 +1,4 @@
-<?php if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) && !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['message'])) {
+<?php if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['date']) && isset($_POST['message']) && !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['date']) && !empty($_POST['message'])) {
 
     $to      = 'emiliano0662@gmail.com';
 	$subject = "Nuevo mensaje de contacto - ".$_POST['name'];
@@ -14,6 +14,7 @@
 	$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 	$message .= "<tr style='background: #eee;'><td><strong>Nombre:</strong> </td><td>" . strip_tags($_POST['name']) . "</td></tr>";
 	$message .= "<tr><td><strong>E-mail:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
+	$message .= "<tr><td><strong>Fecha:</strong> </td><td>" . strip_tags($_POST['date']) . "</td></tr>";
 	
 	$message .= "<tr style='background: #eee;'><td><strong>Asunto:</strong> </td><td>" . strip_tags($_POST['subject']) . "</td></tr>";
     

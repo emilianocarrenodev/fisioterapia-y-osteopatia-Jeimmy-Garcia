@@ -39,19 +39,19 @@
                 <div class="col-12 col-lg-5">
                     <form id="form-contact" action="sendmail.php" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nombre" aria-describedby="help-name" required>
+                            <input type="text" class="form-control" placeholder="Nombre" name="name" aria-describedby="help-name" required>
                             <small id="help-name" class="form-text text-muted">Tu nombre completo</small>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="@" aria-describedby="help-email" required>
+                            <input type="email" class="form-control" placeholder="@" name="email" aria-describedby="help-email" required>
                             <small id="help-email" class="form-text text-muted">Escribe un email válido</small>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="19 / 12 / 2020" aria-describedby="help-date" required>
+                            <input type="text" class="form-control" placeholder="19 / 12 / 2020" name="date" aria-describedby="help-date" required>
                             <small id="help-date" class="form-text text-muted">Fecha estimada para tu cita</small>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Mensaje" aria-describedby="help-message" required></textarea>
+                            <textarea class="form-control" rows="5" placeholder="Mensaje" name="message" aria-describedby="help-message" required></textarea>
                             <small id="help-message" class="form-text text-muted">Escribe el motivo de tu cita</small>
                         </div>
                         <div class="form-group">
