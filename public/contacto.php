@@ -36,7 +36,7 @@
     <section class="block-contact-main">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-5">
+                <div class="col-12 col-lg-5 wow slideInLeft" data-wow-delay="0.5s">
                     <form id="form-contact" action="sendmail.php" method="POST">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Nombre" name="name" aria-describedby="help-name" required>
@@ -67,7 +67,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-lg-6 offset-lg-1">
+                <div class="col-12 col-lg-6 offset-lg-1 wow slideInRight" data-wow-delay="0.5s">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5986.31768063651!2d2.1486006235244517!3d41.3923567158405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPassatge%20Marimon%207%20principal%20primera%20Barcelona%20-%20Espa%C3%B1a!5e0!3m2!1ses-419!2sco!4v1583148334040!5m2!1ses-419!2sco" frameborder="0" allowfullscreen=""></iframe>
                 </div>
             </div>

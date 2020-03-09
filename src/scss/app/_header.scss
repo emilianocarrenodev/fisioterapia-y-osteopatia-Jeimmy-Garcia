@@ -1,4 +1,23 @@
 header {
+    background: transparent url('../img/bg-header.png') left 105px / 100% 43px no-repeat;
+
+    // Breakpoints
+    @include respond-to($phone) {
+        background: transparent;
+    }
+
+    @include respond-to($phone-tablet) {
+        background: transparent;
+    }
+
+    @include respond-to($tablet-medium) {
+        background: transparent;
+    }
+
+    @include respond-to($medium-large) {
+        background: transparent;
+    }
+
 
     .navbar {
         background-color: transparent !important;
@@ -6,6 +25,7 @@ header {
         .navbar-brand {
 
             .img-fluid {
+                width: 179px;
 
                 // Breakpoints
                 @include respond-to($phone) {
@@ -174,10 +194,11 @@ header {
                 }
 
                 .navbar-nav {
-                    width: 150%;
+                    width: 100%;
+                    /*width: 150%;
                     margin-right: -50%;
-                    padding-right: 50%;
-                    background: transparent linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 144, 165, 0.2) 100%) top left no-repeat;
+                    padding-right: 50%;*/
+                    //background: transparent linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 144, 165, 0.2) 100%) top left no-repeat;
 
                     // Breakpoints
                     @include respond-to($phone) {

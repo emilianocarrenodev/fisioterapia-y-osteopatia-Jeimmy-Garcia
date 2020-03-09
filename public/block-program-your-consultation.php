@@ -1,5 +1,5 @@
 <section class="block-program-your-consultation">
-    <div class="container-fluid">
+    <div class="container-fluid wow fadeIn" data-wow-delay="0.5s">
         <div class="row">
             <div class="col-12">
                 <img src="./assets/img/icon-calendar.png" class="img-fluid">

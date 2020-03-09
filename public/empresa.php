@@ -19,20 +19,20 @@
     <section class="block-our-company-main">
         <div class="container">
             <div class="row flex-column-reverse flex-lg-row">
-                <div class="col-12 col-lg-5 pl-lg-5 pt-190 text-center">
+                <div class="col-12 col-lg-5 pl-lg-5 pt-190 text-center wow slideInLeft" data-wow-delay="0.5s">
                     <h2>Nuestra<br><span>Empresa</span></h2>
                     <p class="text-center">Para nosotros, nuestros pacientes son el alma de nuestra consulta, es por ello que ponemos todos nuestros esfuerzos y conocimientos para brindar a cada persona un tratamiento personalizado y adecuado para mejorar su condición física.</p>
                     <img src="./assets/img/image-empresa-border.png" class="img-border d-none d-lg-inline-block">
                 </div>
-                <div class="col-12 col-lg-7 pl-lg-5">
+                <div class="col-12 col-lg-7 pl-lg-5 wow slideInRight" data-wow-delay="0.5s">
                     <div class="content-image bg-pr" style="background-image: url('./assets/img/image-empresa-1.png');"></div>
                 </div>
             </div>
             <div class="row mt-0 mt-lg-5">
-                <div class="col-12 col-lg-4 pr-lg-5">
+                <div class="col-12 col-lg-4 pr-lg-5 wow slideInLeft" data-wow-delay="0.5s">
                     <div class="content-image bg-pl" style="background-image: url('./assets/img/image-empresa-2.png');"></div>
                 </div>
-                <div class="col-12 col-lg-8 text-left">
+                <div class="col-12 col-lg-8 text-left wow slideInRight" data-wow-delay="0.5s">
                     <h2 class="title-pr-5">Quienes<br><span>Somos</span></h2>
                     <p>Somos un equipo integral de fisioterapeutas y osteópatas especializados en diferentes ramas, para podernos adaptar a la condición y necesidad de cada una las personas que confían en nosotros.</p>
                     <p>Siempre mantenemos un contacto directo y profesional con cada uno de los pacientes, llevando a cabo una evaluación eficaz, un diagnóstico acertado, un tratamiento integral y un seguimiento exhaustivo de cada uno ellos.</p>
@@ -40,22 +40,22 @@
                 </div>
             </div>
             <div class="row mt-0 mt-lg-5 flex-column-reverse flex-lg-row">
-                <div class="col-12 col-lg-8 pt-120">
+                <div class="col-12 col-lg-8 pt-120 wow slideInLeft" data-wow-delay="0.5s">
                     <p>Somos un equipo integral de fisioterapeutas y osteópatas especializados en diferentes ramas, para podernos adaptar a la condición y necesidad de cada una las personas que confían en nosotros.</p>
                     <p>Siempre mantenemos un contacto directo y profesional con cada uno de los pacientes, llevando a cabo una evaluación eficaz, un diagnóstico acertado, un tratamiento integral y un seguimiento exhaustivo de cada uno ellos.</p>
                     <p>uestras terapias físicas basadas en las técnicas manipulativas articulares (Mitchell) y de alta velocidad (SAT), análisis y diagnóstico en casos clínicos, análisis y tratamiento del paciente vertiginoso, entre otros han permitido que nuestros pacientes queden satisfechos con los resultados obtenidos con nuestros planes de terapia.</p>
                 </div>
-                <div class="col-12 col-lg-4 text-center">
+                <div class="col-12 col-lg-4 text-center wow slideInRight" data-wow-delay="0.5s">
                     <img src="./assets/img/image-empresa-border.png" class="img-border border-two d-none d-lg-inline-block">
                     <h3>JEIMMY<br>GARCÍA</h3>
                 </div>
             </div>
             <div class="row mt-0 mt-lg-5">
-                <div class="col-12 col-lg-5 text-center">
+                <div class="col-12 col-lg-5 text-center wow slideInLeft" data-wow-delay="0.5s">
                     <img src="./assets/img/image-empresa-border.png" class="img-border border-three d-none d-lg-inline-block">
                     <h4>Nuestra<br><span>Misión</span></h4>
                 </div>
-                <div class="col-12 col-lg-6 pt-100">
+                <div class="col-12 col-lg-6 pt-100 wow slideInRight" data-wow-delay="0.5s">
                     <p class="type-two">Nuestra misión es poder brindar a cada paciente un tratamiento  global y personalizado a través del acompañamiento en cada etapa y situación de su vida, ayudando a que encuentre su equilibrio entre mente y  cuerpo.</p>
                 </div>
             </div>
@@ -66,7 +66,7 @@
     <section class="block-treatments">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6 pb-0 pb-lg-5">
+                <div class="col-12 col-lg-6 pb-0 pb-lg-5 wow slideInLeft" data-wow-delay="0.5s">
                     <h2>FISIOTERAPIA</h2>
                     <a href="" target="_self">
                         <div class="content-image" style="background-image: url('./assets/img/image-treatments-2.png')">
@@ -74,7 +74,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-12 col-lg-6 pb-0 pb-lg-5">
+                <div class="col-12 col-lg-6 pb-0 pb-lg-5 wow slideInRight" data-wow-delay="0.5s">
                     <h2>OSTEOPATÍA</h2>
                     <a href="" target="_self">
                         <div class="content-image" style="background-image: url('./assets/img/image-treatments-1.png')">
