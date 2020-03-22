@@ -12,7 +12,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <a href="./contacto.php" target="_self" class="btn btn-link"><?= ($lang)? 'CONTÁCTANOS' : 'CONTACTE' ?></a>
+                <a href="./contacto.php?lang=<?= ($lang)? "es" : "ca" ?>" target="_self" class="btn btn-link"><?= ($lang)? 'CONTÁCTANOS' : 'CONTACTE' ?></a>
             </div>
         </div>
         <div class="row">
@@ -29,16 +29,16 @@
     <div class="container-menu-footer">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='index')? 'active' : '' ?>" href="./"><?= ($lang)? 'INICIO' : 'INICI' ?></a>
+                <a class="nav-link <?= ($menu=='index')? 'active' : '' ?>" href="./?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'INICIO' : 'INICI' ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='empresa')? 'active' : '' ?>" href="./empresa.php"><?= ($lang)? 'EMPRESA' : 'EMPRESA' ?></a>
+                <a class="nav-link <?= ($menu=='empresa')? 'active' : '' ?>" href="./empresa.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'EMPRESA' : 'EMPRESA' ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='tratamientos')? 'active' : '' ?>" href="./tratamientos-fisioterapia.php"><?= ($lang)? 'TRATAMIENTOS' : 'TRACTAMENTS' ?></a>
+                <a class="nav-link <?= ($menu=='tratamientos')? 'active' : '' ?>" href="./tratamientos-fisioterapia.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'TRATAMIENTOS' : 'TRACTAMENTS' ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='contacto')? 'active' : '' ?>" href="./contacto.php"><?= ($lang)? 'CONTÁCTO' :'CONTACTE' ?></a>
+                <a class="nav-link <?= ($menu=='contacto')? 'active' : '' ?>" href="./contacto.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'CONTÁCTO' :'CONTACTE' ?></a>
             </li>
         </ul>
     </div>

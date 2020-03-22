@@ -25,8 +25,8 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h2>PROGRAMA TU CONSULTA</h2>
-                    <h3>CONTÁCTANOS Y TE RESPONDEREMOS DE INMEDIATO</h3>
+                    <h2><?= ($lang)? "PROGRAMA TU CONSULTA" : "PROGRAMA TÚ CONSULTA" ?></h2>
+                    <h3><?= ($lang)? "CONTÁCTANOS Y TE RESPONDEREMOS DE INMEDIATO" : "CONTACTA'NS I ET RESPONDREM D'IMMEDIATA" ?></h3>
                 </div>
             </div>
         </div>
@@ -39,31 +39,31 @@
                 <div class="col-12 col-lg-5 wow slideInLeft" data-wow-delay="0.5s">
                     <form id="form-contact" action="sendmail.php" method="POST">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nombre" name="name" aria-describedby="help-name" required>
-                            <small id="help-name" class="form-text text-muted">Tu nombre completo</small>
+                            <input type="text" class="form-control" placeholder="<?= ($lang)? "Nombre" : "Nom" ?>" name="name" aria-describedby="help-name" required>
+                            <small id="help-name" class="form-text text-muted"><?= ($lang)? "Tu nombre completo" : "El teu nom complet" ?></small>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" placeholder="@" name="email" aria-describedby="help-email" required>
-                            <small id="help-email" class="form-text text-muted">Escribe un email válido</small>
+                            <small id="help-email" class="form-text text-muted"><?= ($lang)? "Escribe un email válido" : "Escriu un email vàlid" ?></small>
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="19 / 12 / 2020" name="date" aria-describedby="help-date" required>
-                            <small id="help-date" class="form-text text-muted">Fecha estimada para tu cita</small>
+                            <small id="help-date" class="form-text text-muted"><?= ($lang)? "Fecha estimada para tu cita" : "Data estimada per la teva cita" ?></small>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Mensaje" name="message" aria-describedby="help-message" required></textarea>
-                            <small id="help-message" class="form-text text-muted">Escribe el motivo de tu cita</small>
+                            <textarea class="form-control" rows="5" placeholder="<?= ($lang)? "Mensaje" : "Missatge" ?>" name="message" aria-describedby="help-message" required></textarea>
+                            <small id="help-message" class="form-text text-muted"><?= ($lang)? "Escribe el motivo de tu cita" : "Escriu el motiu de la teva cita" ?></small>
                         </div>
                         <div class="form-group">
                             <div class="alert alert-success" role="alert">
-                                Mensaje enviado con exito!!!
+                                <?= ($lang)? "Mensaje enviado con exito!!!" : "Missatge enviat amb èxit !!!" ?>
                             </div>
                             <div class="alert alert-danger" role="alert">
-                                Error, intente de nuevo por favor!!!
+                                <?= ($lang)? "Error, intente de nuevo por favor!!!" : "Error, intenti de nou si us plau !!!" ?>
                             </div>
                         </div>
                         <div class="form-group text-center">
-                            <button type="submit" class="btn btn-primary">ENVIAR</button>
+                            <button type="submit" class="btn btn-primary"><?= ($lang)? "ENVIAR" : "ENVIAR" ?></button>
                         </div>
                     </form>
                 </div>

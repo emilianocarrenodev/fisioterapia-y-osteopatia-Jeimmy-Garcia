@@ -1,7 +1,7 @@
 <header class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="./">
+            <a class="navbar-brand" href="./?lang=<?= ($lang)? "es" : "ca" ?>">
                 <img src="./assets/img/logo.png" class="img-fluid" alt="JEIMMY GARCIAS">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,22 +25,22 @@
                     </ul>
                     <ul class="navbar-nav d-flex flex-column flex-lg-row justify-content-end align-items-start align-items-lg-end">
                         <li class="nav-item <?= ($menu=='index')? 'active' : '' ?>">
-                            <a class="nav-link" href="./"><?= ($lang)? 'INICIO' : 'INICI' ?></a>
+                            <a class="nav-link" href="./?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'INICIO' : 'INICI' ?></a>
                         </li>
                         <li class="nav-item <?= ($menu=='empresa')? 'active' : '' ?>">
-                            <a class="nav-link" href="./empresa.php"><?= ($lang)? 'EMPRESA' : 'EMPRESA' ?></a>
+                            <a class="nav-link" href="./empresa.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'EMPRESA' : 'EMPRESA' ?></a>
                         </li>
                         <li class="nav-item dropdown <?= ($menu=='tratamientos')? 'active' : '' ?>">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <?= ($lang)? 'TRATAMIENTOS' : 'TRACTAMENTS' ?>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./tratamientos-fisioterapia.php"><?= ($lang)? 'Fisioterapia' : 'Fisioteràpia' ?></a>
-                                <a class="dropdown-item" href="./tratamientos-osteopatia.php"><?= ($lang)? 'Osteopatía' : 'Osteopatía' ?></a>
+                                <a class="dropdown-item" href="./tratamientos-fisioterapia.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'Fisioterapia' : 'Fisioteràpia' ?></a>
+                                <a class="dropdown-item" href="./tratamientos-osteopatia.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'Osteopatía' : 'Osteopatía' ?></a>
                             </div>
                         </li>
                         <li class="nav-item <?= ($menu=='contacto')? 'active' : '' ?>">
-                            <a class="nav-link" href="./contacto.php"><?= ($lang)? 'CONTÁCTO' :'CONTACTE' ?></a>
+                            <a class="nav-link" href="./contacto.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'CONTÁCTO' :'CONTACTE' ?></a>
                         </li>
                     </ul>
                 </div>

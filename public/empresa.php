@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
                     <h2>FISIOTERAPIA</h2>
-                    <a href="./tratamientos-fisioterapia.php" target="_self">
+                    <a href="./tratamientos-fisioterapia.php?lang=<?= ($lang)? "es" : "ca" ?>" target="_self">
                         <div class="content-image" style="background-image: url('./assets/img/image-treatments-2.png')">
                             <h3><?= ($lang)? 'VER TRATAMIENTOS' :'VEURE TRACTAMENTS' ?></h3>
                         </div>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="col-12 col-lg-6 wow slideInRight" data-wow-delay="0.5s">
                     <h2>OSTEOPATÍA</h2>
-                    <a href="./tratamientos-osteopatia.php" target="_self">
+                    <a href="./tratamientos-osteopatia.php?lang=<?= ($lang)? "es" : "ca" ?>" target="_self">
                         <div class="content-image" style="background-image: url('./assets/img/image-treatments-1.png')">
                             <h3><?= ($lang)? 'VER TRATAMIENTOS' :'VEURE TRACTAMENTS' ?></h3>
                         </div>
