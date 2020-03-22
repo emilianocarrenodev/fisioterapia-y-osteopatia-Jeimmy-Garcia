@@ -7,17 +7,17 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <h2>PROGRAMA TU CONSULTA</h2>
+                <h2><?= ($lang)? 'PROGRAMA TU CONSULTA' : 'PROGRAMA LA TEVA CONSULTA' ?></h2>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <a href="./contacto.php" target="_self" class="btn btn-link">CONTÁCTANOS</a>
+                <a href="./contacto.php" target="_self" class="btn btn-link"><?= ($lang)? 'CONTÁCTANOS' : 'CONTACTE' ?></a>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <h3>MEDIOS DE PAGO</h3>
+                <h3><?= ($lang)? 'MEDIOS DE PAGO' : 'MITJANS DE PAGAMENT' ?></h3>
             </div>
         </div>
         <div class="row">
@@ -29,16 +29,16 @@
     <div class="container-menu-footer">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='index')? 'active' : '' ?>" href="./">INICIO</a>
+                <a class="nav-link <?= ($menu=='index')? 'active' : '' ?>" href="./"><?= ($lang)? 'INICIO' : 'INICI' ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='empresa')? 'active' : '' ?>" href="./empresa.php">EMPRESA</a>
+                <a class="nav-link <?= ($menu=='empresa')? 'active' : '' ?>" href="./empresa.php"><?= ($lang)? 'EMPRESA' : 'EMPRESA' ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='tratamientos')? 'active' : '' ?>" href="./tratamientos-fisioterapia.php">TRATAMIENTOS</a>
+                <a class="nav-link <?= ($menu=='tratamientos')? 'active' : '' ?>" href="./tratamientos-fisioterapia.php"><?= ($lang)? 'TRATAMIENTOS' : 'TRACTAMENTS' ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='contacto')? 'active' : '' ?>" href="./contacto.php">CONTÁCTO</a>
+                <a class="nav-link <?= ($menu=='contacto')? 'active' : '' ?>" href="./contacto.php"><?= ($lang)? 'CONTÁCTO' :'CONTACTE' ?></a>
             </li>
         </ul>
     </div>

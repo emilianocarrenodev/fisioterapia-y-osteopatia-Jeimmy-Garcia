@@ -21,12 +21,12 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide" style="background-image: url('./assets/img/header.png');">
                     <div class="container">
-                        <h1>Tu cuerpo es tu compañero de vida.<br><span>Cuídalo, escúchalo, atiéndelo</span></h1>
+                        <h1><?= ($lang)? 'Tu cuerpo es tu compañero de vida.<br><span>Cuídalo, escúchalo, atiéndelo' : 'El cos és el teu company de vida.<br><span>Cuida’l, escolta’l, tingues cura d’ell ' ?></span></h1>
                     </div>
                 </div>
                 <div class="swiper-slide" style="background-image: url('./assets/img/header.png');">
                     <div class="container">
-                        <h1>Tu cuerpo es tu compañero de vida.<br><span>Cuídalo, escúchalo, atiéndelo</span></h1>
+                        <h1><?= ($lang)? 'Tu cuerpo es tu compañero de vida.<br><span>Cuídalo, escúchalo, atiéndelo' : 'El cos és el teu company de vida.<br><span>Cuida’l, escolta’l, tingues cura d’ell ' ?></span></h1>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     <h2>FISIOTERAPIA</h2>
                     <a href="./tratamientos-fisioterapia.php" target="_self">
                         <div class="content-image" style="background-image: url('./assets/img/image-treatments-2.png')">
-                            <h3>VER TRATAMIENTOS</h3>
+                            <h3><?= ($lang)? 'VER TRATAMIENTOS' :'VEURE TRACTAMENTS' ?></h3>
                         </div>
                     </a>
                 </div>
@@ -49,7 +49,7 @@
                     <h2>OSTEOPATÍA</h2>
                     <a href="./tratamientos-osteopatia.php" target="_self">
                         <div class="content-image" style="background-image: url('./assets/img/image-treatments-1.png')">
-                            <h3>VER TRATAMIENTOS</h3>
+                            <h3><?= ($lang)? 'VER TRATAMIENTOS' :'VEURE TRACTAMENTS' ?></h3>
                         </div>
                     </a>
                 </div>
@@ -67,12 +67,12 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p>Nuestra consulta está especializada en fisioterapia y osteopatía con profesionales de más de 20 años de experiencia en el cuidado de cada paciente. Nuestras terapias combinan el arte de la salud y la ciencia del tratamiento funcional para alcanzar la recuperación integral de cada uno de nuestros pacientes.</p>
+                    <p><?= ($lang)? "Nuestra consulta está especializada en fisioterapia y osteopatía con profesionales de más de 20 años de experiencia en el cuidado de cada paciente. Nuestras terapias combinan el arte de la salud y la ciencia del tratamiento funcional para alcanzar la recuperación integral de cada uno de nuestros pacientes." : "La nostra consulta està especialitzada en fisioteràpia i osteopatia amb professionals de més de 20 anys d'experiència en la cura de cada pacient. Les nostres teràpies combinen l'art de la salut i la ciència del tractament funcional per assolir la recuperació integral de cadascun dels nostres pacients." ?></p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <a href="./empresa.php" target="_self" class="btn btn-info">NUESTRO EQUIPO</a>
+                    <a href="./empresa.php" target="_self" class="btn btn-info"><?= ($lang)? 'NUESTRO EQUIPO' :'NOSTRE EQUIP' ?></a>
                 </div>
             </div>
             <div class="row">
