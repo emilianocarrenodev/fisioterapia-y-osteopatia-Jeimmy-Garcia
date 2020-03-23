@@ -10,7 +10,7 @@
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 	$message = '<html><body>';
-	$message .='<h2>VCF</h2>';
+	$message .='<h2>JEIMMY GARCIAS</h2>';
 	$message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 	$message .= "<tr style='background: #eee;'><td><strong>Nombre:</strong> </td><td>" . strip_tags($_POST['name']) . "</td></tr>";
 	$message .= "<tr><td><strong>E-mail:</strong> </td><td>" . strip_tags($_POST['email']) . "</td></tr>";
