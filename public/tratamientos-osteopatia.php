@@ -24,7 +24,7 @@
                         <img src="./assets/img/image-osteopatria-treatments-1.png" class="img-fluid">
                     </div>
                     <div class="col-12 col-lg-6 pl-3 pl-lg-5 wow slideInRight" data-wow-delay="0.5s">
-                        <h1>OSTEOPATÍA</h1>
+                        <h1><?= ($lang)? "OSTEOPATÍA" : "OSTEOPATIA" ?></h1>
                         <p><?= ($lang)? "La osteopatía es una técnica manual,  desarrollada por Andrew Taylor Still, (1828 -1917) médico y cirujano americano, que busca a través de la manipulación de los diferentes tejidos del cuerpo,  activar los mecanismos de autocuración y regulación del organismo. La valoración del paciente se hace desde la globalidad, para poder llegar a un correcto diagnóstico y un tratamiento específico de cada individuo y de cada patología." : "L'osteopatia és una tècnica manual, desenvolupada per Andrew Taylor Still, (1828-1917) metge i cirurgià americà, que busca a través de la manipulació dels diferents teixits del cos, activar els mecanismes d'autocuració i regulació de l'organisme. La valoració del pacient es fa des de la globalitat, per poder arribar a un correcte diagnòstic i un tractament específic de cada individu i de cada patologia." ?></p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="row wow slideInLeft" data-wow-delay="0.5s">
                             <div class="col-12 col-lg-6 pr-3 pr-lg-5">
-                                <h3><?= ($lang)? "Osteopatia<br>osteomuscular" : "Osteopatia<br>osteomuscular" ?></h3>
+                                <h3><?= ($lang)? "Osteopatía<br>osteomuscular" : "Osteopatia<br>osteomuscular" ?></h3>
                                 <p><?= ($lang)? "Enfocada al tratamiento de  lesiones del aparato osteomuscular, tales como tendinopatías, desgarros musculares, artrosis, escoliosis, entre otros." : "Enfocada al tractament de lesions de l'aparell osteomuscular, com ara tendinopaties, esquinçaments musculars, artrosi, escoliosi, entre d'altres." ?></p>
                             </div>
                             <div class="col-12 col-lg-6 pl-3 pl-lg-5">
@@ -68,7 +68,7 @@
                         <div class="row wow slideInLeft" data-wow-delay="0.5s">
                             <div class="col-12 col-lg-6 pr-3 pr-lg-5">
                                 <h3><?= ($lang)? "Osteopatía<br>obstétrica" : "Osteopatia<br>obstètrica" ?></h3>
-                                <p><?= ($lang)? "Enfocada al seguimiento y  tratamiento del embarazo, problemas del suelo pélvicoe inguinales, problemas de adaptación de la postura, tratamiento de episiotomías y todas las adaptaciones y bloqueos presentes en el postparto, entre otros." : "Enfocada al seguiment i tractament de l'embaràs, problemes del sòl pèlvic i inguinals, problemes d'adaptació de la postura, tractament de episiotomies i totes les adaptacions i bloquejos presents en el postpart, entre d'altres." ?></p>
+                                <p><?= ($lang)? "Enfocada al seguimiento y  tratamiento del embarazo, problemas del suelo pélvico e inguinales, problemas de adaptación de la postura, tratamiento de episiotomías y todas las adaptaciones y bloqueos presentes en el postparto, entre otros." : "Enfocada al seguiment i tractament de l'embaràs, problemes del sòl pèlvic i inguinals, problemes d'adaptació de la postura, tractament de episiotomies i totes les adaptacions i bloquejos presents en el postpart, entre d'altres." ?></p>
                             </div>
                             <div class="col-12 col-lg-6 pl-3 pl-lg-5">
                                 <h3><?= ($lang)? "Osteopatía sistema<br>respiratorio y orofarínge" : "Osteopatia sistema<br>respiratori i orofaringi" ?></h3>
@@ -85,8 +85,8 @@
                         </div>
                         <div class="row">
                             <div class="col-12 wow slideInRight" data-wow-delay="0.5s">
-                                <h3><?= ($lang)? "Osteopatía<br>Pediátrica" : "Osteopatia<br>Pediàtrica" ?></h3>
-                                <p><?= ($lang)? "La osteopatía pediátrica abarca el tratamiento en el que se utilizan técnicas manuales, adaptadas y específicas para los bebés y los niños. En esta rama de la osteopatía se diagnostican las disfunciones de movilidad del tejido que pueden tener los bebes y los niños desde su nacimiento y a lo largo de su desarrollo.  Dentro de las diferentes disfunciones podemos encontrar: Asimetrías craneales, cólicos del lactante, problemas de reflujo, insomnio, escoliósis, problemas digestivos (reflujo, gases y estreñimiento), otitis, bronquitis, bronquiolitis, neumonia." : "L'osteopatia pediàtrica abasta el tractament en què s'utilitzen tècniques manuals, adaptades i específiques per als nadons i els nens. En aquesta branca de l'osteopatia es diagnostiquen les disfuncions de mobilitat del teixit que poden tenir els nadons i els nens des del seu naixement i al llarg del seu desenvolupament. Dins de les diferents disfuncions podem trobar: Asimetries cranials, còlics del lactant, problemes de reflux, insomni, escoliosi, problemes digestius (reflux, gasos i restrenyiment), otitis, bronquitis, bronquiolitis, pneumònia." ?></p>
+                                <h3><?= ($lang)? "Osteopatía<br>Pediátrica" : "Osteopatia<br>Pediatrica" ?></h3>
+                                <p><?= ($lang)? "La osteopatía pediátrica abarca el tratamiento en el que se utilizan técnicas manuales, adaptadas y específicas para los bebés y los niños. En esta rama de la osteopatía se diagnostican las disfunciones de movilidad del tejido que pueden tener los bebés y los niños desde su nacimiento y a lo largo de su desarrollo.  Dentro de las diferentes disfunciones podemos encontrar: Asimetrías craneales, cólicos del lactante, problemas de reflujo, insomnio, escoliósis, problemas digestivos (reflujo, gases y estreñimiento), otitis, bronquitis, bronquiolitis, neumonía." : "L'osteopatia pediatrica abasta el tractament en que s'utilitzen tècniques manuals, adaptades i específiques per als nadons i els nens. En aquesta branca de l'osteopatia es diagnostiquen les disfuncions de mobilitat del teixit que poden tenir els nadons i els nens des del seu naixement i al llarg del seu desenvolupament. Dins de les diferents disfuncions podem trobar: Asimetries cranials, còlics del lactant, problemes de reflux, insomni, escoliosi, problemes digestius (reflux, gasos i restrenyiment), otitis, bronquitis, bronquiolitis, pneumònia." ?></p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <h4>FISIOTERÁPIA</h4>
+                    <h4><?= ($lang)? "FISIOTERAPIA" : "FISIOTERÀPIA" ?></h4>
                     <a href="./tratamientos-fisioterapia.php?lang=<?= ($lang)? "es" : "ca" ?>" target="_self" class="btn btn-info"><?= ($lang)? 'VER TRATAMIENTOS' :'VEURE TRACTAMENTS' ?></a>
                 </div>
             </div>

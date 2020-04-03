@@ -23,7 +23,7 @@
                     <div class="content-image wow slideInLeft" data-wow-delay="0.5s" style="background-image: url('./assets/img/image-treatments-2.png');"></div>
                     <div class="container-left-main wow slideInLeft" data-wow-delay="0.5s">
                         <h2><?= ($lang)? "Nuestros<br><span>Servicios</span>" : "Els nostres<br><span>Serveis</span>" ?></h2>
-                        <p><?= ($lang)? "Es por eso que buscamos ofrecer un programa de rehabilitación diferente para cada individuo, adaptado a sus necesidades físicas, personales, sociales y emocionales" : "És per aquest motiu que busquem oferir un procés de rehabilitació diferent per a cada individu, adaptat a les seves necessitats físiques, personals, socials i emocionals:" ?></p>
+                        <p><?= ($lang)? "buscamos ofrecer un programa de rehabilitación diferente para cada individuo, adaptado a sus necesidades físicas, personales, sociales y emocionales" : "Busquem oferir un procés de rehabilitació diferent per a cada individu, adaptat a les seves necessitats físiques, personals, socials i emocionals:" ?></p>
                     </div>
                     <img src="./assets/img/image-physiotherapy-treatments-2.png" class="img-fluid wow slideInLeft" data-wow-delay="0.5s">
                 </div>
@@ -43,21 +43,21 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <ul>
-                                <li><?= ($lang)? "jercicio<br>terapéutico" : "Exercici<br>terapèutic" ?></li>
-                                <li><?= ($lang)? "Conciencia corporal<br>y respiratoria" : "Consciència corporal<br>i respiratòria" ?></li>
-                                <li><?= ($lang)? "Conciencia corporal CORE<br>(trabajo de activación muscular)" : "CORE<br>(treball d'activació muscular)" ?></li>
+                                <li><?= ($lang)? "Ejercicio<br>terapéutico" : "Exercici<br>terapèutic" ?></li>
+                                <li><?= ($lang)? "Consciencia corporal<br>y respiratoria" : "Consciència corporal<br>i respiratòria" ?></li>
+                                <li><?= ($lang)? "Consciencia corporal CORE<br>(trabajo de activación muscular)" : "CORE<br>(treball d'activació muscular)" ?></li>
                             </ul>
                         </div>
                     </div>
                     <div class="container-p-main type-two wow slideInRight" data-wow-delay="0.5s">
                         <h2><?= ($lang)? "Pilates<br><span>Funcional</span>" : "Pilates<br><span>Funcional</span>" ?></h2>
-                        <p><?= ($lang)? "El Pilates es una técnica de rehabilitación que se ha incluido dentro de las actividades físicas. Tiene una base teórico científica muy especializada que busca trabajar el centro de nuestro control muscular (CORE) y el uso de la mente buscando el equilibrio de todo el cuerpo. Con la técnica de Pilates se trabaja las necesidades de cada persona y se armonizan  procesos de aprendizaje bidireccional, concentración, conciencia corporal y el ejercicio físico." : "El Pilates és una tècnica de rehabilitació que s'ha inclòs dins de les activitats físiques. Té una base teòrica científica molt especialitzada que busca treballar el centre del nostre control muscular (CORE) i l'ús de la ment buscant l'equilibri de tot el cos. Amb la tècnica de Pilates es treballa les necessitats de cada persona i s'harmonitzen processos d'aprenentatge bidireccional, concentració, consciència corporal i l'exercici físic." ?></p>
+                        <p><?= ($lang)? "El Pilates es una técnica de rehabilitación que se ha incluido dentro de las actividades físicas. Tiene una base teórico científica muy especializada que busca trabajar el centro de nuestro control muscular (CORE) y el uso de la mente buscando el equilibrio de todo el cuerpo. Con la técnica de Pilates se trabajan las necesidades de cada persona y se armonizan  procesos de aprendizaje bidireccional, concentración, consciencia corporal y el ejercicio físico." : "El Pilates és una tècnica de rehabilitació que s'ha inclòs dins de les activitats físiques. Té una base teòrica científica molt especialitzada que busca treballar el centre del nostre control muscular (CORE) i l'ús de la ment buscant l'equilibri de tot el cos. Amb la tècnica de Pilates es treballa les necessitats de cada persona i s'harmonitzen processos d'aprenentatge bidireccional, concentració, consciència corporal i l'exercici físic." ?></p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <h3>OSTEOPATÍA</h3>
+                    <h3><?= ($lang)? "OSTEOPATÍA" : "OSTEOPATIA" ?></h3>
                     <a href="./tratamientos-osteopatia.php?lang=<?= ($lang)? "es" : "ca" ?>" target="_self" class="btn btn-info"><?= ($lang)? 'VER TRATAMIENTOS' :'VEURE TRACTAMENTS' ?></a>
                 </div>
             </div>

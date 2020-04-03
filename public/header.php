@@ -1,4 +1,4 @@
-<header class="fixed-top">
+<header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="./?lang=<?= ($lang)? "es" : "ca" ?>">
@@ -36,7 +36,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="./tratamientos-fisioterapia.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'Fisioterapia' : 'Fisioteràpia' ?></a>
-                                <a class="dropdown-item" href="./tratamientos-osteopatia.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'Osteopatía' : 'Osteopatía' ?></a>
+                                <a class="dropdown-item" href="./tratamientos-osteopatia.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'Osteopatía' : 'Osteopatia' ?></a>
                             </div>
                         </li>
                         <li class="nav-item <?= ($menu=='contacto')? 'active' : '' ?>">

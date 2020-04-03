@@ -25,8 +25,8 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <h2><?= ($lang)? "PROGRAMA TU CONSULTA" : "PROGRAMA TÚ CONSULTA" ?></h2>
-                    <h3><?= ($lang)? "CONTÁCTANOS Y TE RESPONDEREMOS DE INMEDIATO" : "CONTACTA'NS I ET RESPONDREM D'IMMEDIATA" ?></h3>
+                    <h2><?= ($lang)? "PROGRAMA TU CONSULTA" : "PROGRAMA LA TEVA CONSULTA" ?></h2>
+                    <h3><?= ($lang)? "CONTÁCTANOS Y TE RESPONDEREMOS DE INMEDIATO" : "CONTACTA’NS I ET RESPONDREM EL MÉS AVIAT POSSIBLE" ?></h3>
                 </div>
             </div>
         </div>

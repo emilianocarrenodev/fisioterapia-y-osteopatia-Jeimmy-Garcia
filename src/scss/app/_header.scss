@@ -1,5 +1,10 @@
 header {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
     background: transparent url('../img/bg-header.png') left 105px / 100% 43px no-repeat;
+    z-index: 99999;
 
     // Breakpoints
     @include respond-to($phone) {
