@@ -14,14 +14,14 @@
                             <a class="nav-link" href="tel:+34620243225" target="_self"><img src="./assets/img/icon-phone.png" class="img-fluid mr-3"> 34 620 243 225</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank"><img src="./assets/img/icon-instagram.png" class="img-fluid"></a>
+                            <a class="nav-link" href="https://www.instagram.com/fisio_jeimmy/?hl=es-la" target="_blank"><img src="./assets/img/icon-instagram.png" class="img-fluid"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank"><img src="./assets/img/icon-facebook.png" class="img-fluid"></a>
+                            <a class="nav-link" href="https://www.facebook.com/jeimmygarciafisioterapia/" target="_blank"><img src="./assets/img/icon-facebook.png" class="img-fluid"></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank"><img src="./assets/img/icon-twitter.png" class="img-fluid"></a>
-                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/channel/UC49aLLnxw5wQwm5fpweVXAQ" target="_blank"><img src="./assets/img/icon-twitter.png" class="img-fluid"></a>
+                        </li>-->
                     </ul>
                     <ul class="navbar-nav d-flex flex-column flex-lg-row justify-content-end align-items-start align-items-lg-end">
                         <li class="nav-item <?= ($menu=='index')? 'active' : '' ?>">
@@ -41,6 +41,9 @@
                         </li>
                         <li class="nav-item <?= ($menu=='contacto')? 'active' : '' ?>">
                             <a class="nav-link" href="./contacto.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'CONTÁCTO' :'CONTACTE' ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="?lang=<?= ($lang)? "ca" : "es" ?>"><?= ($lang)? 'CAT' :'ESP' ?></a>
                         </li>
                     </ul>
                 </div>

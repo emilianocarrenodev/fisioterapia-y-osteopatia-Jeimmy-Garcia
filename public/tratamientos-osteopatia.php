@@ -36,7 +36,7 @@
                     <div class="col-12 col-lg-6 text-center wow slideInLeft" data-wow-delay="0.5s">
                         <div class="container-main-top">
                             <h2><?= ($lang)? "Nuestros<br><span>Servicios</span>" : "Els nostres<br><span>Serveis</span>" ?></h2>
-                            <p><?= ($lang)? "Encontramos tres tipos de tratamientos osteopáticos que permiten tratar cada uno de los diferentes sistemas:" : "Trobem tres tipus de tractaments osteopàtics que permeten tractar cadascun dels diferents sistemes:" ?></p>
+                            <p><?= ($lang)? "Encontramos varios tipos de tratamientos osteopáticos que permiten tratar cada uno de los diferentes sistemas:" : "Trobem diversos tipus de tractaments osteopàtics que permeten tractar cadascun dels diferents sistemes:" ?></p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 wow slideInRight" data-wow-delay="0.5s">

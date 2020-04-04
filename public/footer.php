@@ -22,9 +22,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="container-social-media wow bounceIn" data-wow-delay="0.5s">
-                        <a href="" target="_blank"><img src="./assets/img/icon-instagram.png" class="img-fluid"></a>
-                        <a href="" target="_blank"><img src="./assets/img/icon-facebook.png" class="img-fluid"></a>
-                        <a href="" target="_blank"><img src="./assets/img/icon-twitter.png" class="img-fluid"></a>
+                        <a href="https://www.instagram.com/fisio_jeimmy/?hl=es-la" target="_blank"><img src="./assets/img/icon-instagram.png" class="img-fluid"></a>
+                        <a href="https://www.facebook.com/jeimmygarciafisioterapia/" target="_blank"><img src="./assets/img/icon-facebook.png" class="img-fluid"></a>
+                        <!--<a href="https://www.youtube.com/channel/UC49aLLnxw5wQwm5fpweVXAQ" target="_blank"><img src="./assets/img/icon-twitter.png" class="img-fluid"></a>-->
                     </div>
                 </div>
             </div>
