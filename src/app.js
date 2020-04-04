@@ -13,10 +13,11 @@ if ($.contains(document.body, document.getElementById('slider-main'))) {
     });
 }
 
+
 $(document).on('submit', '#form-contact', function(event) {
     event.preventDefault();
 
-    $('#form-contact .btn-primary').addClass('disabled');
+    $('#form-contact .btn-primary').prop('disabled', true);
 
     $.ajax({
         cache: false,
@@ -26,7 +27,7 @@ $(document).on('submit', '#form-contact', function(event) {
         success: function(data) {
 
             $('.alert').hide();
-            $('#form-contact .btn-primary').removeClass('disabled');
+            $('#form-contact .btn-primary').prop('disabled', false);
 
             if (data)
             {
