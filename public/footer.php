@@ -1,4 +1,4 @@
-<a href="tel:" target="_self" class="btn-whatsapp"><?= ($lang)? 'Habla con<br><span>nosotros</span>' : 'parla amb<br><span>nosaltres</span>' ?></a>
+<a href="tel:+34684307775" target="_self" class="btn-whatsapp"><?= ($lang)? 'Habla con<br><span>nosotros</span>' : 'parla amb<br><span>nosaltres</span>' ?></a>
 <footer>
     <section class="block-main">
         <div class="container">
