@@ -13,7 +13,6 @@ if ($.contains(document.body, document.getElementById('slider-main'))) {
     });
 }
 
-
 $(document).on('submit', '#form-contact', function(event) {
     event.preventDefault();
 
