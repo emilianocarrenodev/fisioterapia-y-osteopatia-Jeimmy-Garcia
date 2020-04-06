@@ -77,7 +77,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <img src="./assets/img/logo-nuestro-equipo.png" class="img-fluid">
+                    <img src="./assets/img/logo.png" class="img-fluid" width="127px">
                 </div>
             </div>
         </div>

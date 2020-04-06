@@ -23,7 +23,7 @@
                     <div class="content-image wow slideInLeft" data-wow-delay="0.5s" style="background-image: url('./assets/img/image-treatments-2.png');"></div>
                     <div class="container-left-main wow slideInLeft" data-wow-delay="0.5s">
                         <h2><?= ($lang)? "Nuestros<br><span>Servicios</span>" : "Els nostres<br><span>Serveis</span>" ?></h2>
-                        <p><?= ($lang)? "buscamos ofrecer un programa de rehabilitación diferente para cada individuo, adaptado a sus necesidades físicas, personales, sociales y emocionales" : "Busquem oferir un procés de rehabilitació diferent per a cada individu, adaptat a les seves necessitats físiques, personals, socials i emocionals:" ?></p>
+                        <p><?= ($lang)? "Buscamos ofrecer un programa de rehabilitación diferente para cada individuo, adaptado a sus necesidades físicas, personales, sociales y emocionales" : "Busquem oferir un procés de rehabilitació diferent per a cada individu, adaptat a les seves necessitats físiques, personals, socials i emocionals:" ?></p>
                     </div>
                     <img src="./assets/img/image-physiotherapy-treatments-2.png" class="img-fluid wow slideInLeft" data-wow-delay="0.5s">
                 </div>
