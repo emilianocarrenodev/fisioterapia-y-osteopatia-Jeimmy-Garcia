@@ -38,7 +38,7 @@
                 <a class="nav-link <?= ($menu=='tratamientos')? 'active' : '' ?>" href="./tratamientos-fisioterapia.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'TRATAMIENTOS' : 'TRACTAMENTS' ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= ($menu=='contacto')? 'active' : '' ?>" href="./contacto.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'CONTÁCTO' :'CONTACTE' ?></a>
+                <a class="nav-link <?= ($menu=='contacto')? 'active' : '' ?>" href="./contacto.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'CONTACTO' :'CONTACTE' ?></a>
             </li>
         </ul>
     </div>

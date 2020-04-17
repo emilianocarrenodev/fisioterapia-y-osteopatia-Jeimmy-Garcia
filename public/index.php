@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <title>JEIMMY GARCIAS</title>
+    <title>JEIMMY GARCIA</title>
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" sizes="any">
     <link rel="stylesheet" type="text/css" href="./assets/css/bundle.min.css">
 </head>

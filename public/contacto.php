@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <title>JEIMMY GARCIAS</title>
+    <title>JEIMMY GARCIA</title>
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" sizes="any">
     <link rel="stylesheet" type="text/css" href="./assets/css/bundle.min.css">
 </head>
@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-12">
                     <h2><?= ($lang)? "PROGRAMA TU CONSULTA" : "PROGRAMA LA TEVA CONSULTA" ?></h2>
-                    <h3><?= ($lang)? "CONTÁCTANOS Y TE RESPONDEREMOS DE INMEDIATO" : "CONTACTA’NS I ET RESPONDREM EL MÉS AVIAT POSSIBLE" ?></h3>
+                    <h3><?= ($lang)? "CONTÁCTANOS Y TE RESPONDEREMOS LO ANTES POSIBLE" : "CONTACTA’NS I ET RESPONDREM EL MÉS AVIAT POSSIBLE" ?></h3>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
                     </form>
                 </div>
                 <div class="col-12 col-lg-6 offset-lg-1 wow slideInRight" data-wow-delay="0.5s">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5986.31768063651!2d2.1486006235244517!3d41.3923567158405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPassatge%20Marimon%207%20principal%20primera%20Barcelona%20-%20Espa%C3%B1a!5e0!3m2!1ses-419!2sco!4v1583148334040!5m2!1ses-419!2sco" frameborder="0" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.0683584698427!2d2.146032014612871!3d41.39432180352972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3023e32f309%3A0x4424c6bd2bf0e6c1!2sFisioterapia%20%26%20Ospeopat%C3%ADa%20Jeimmy%20Garcia!5e0!3m2!1ses-419!2sco!4v1587101780752!5m2!1ses-419!2sco" frameborder="0" allowfullscreen=""></iframe>
                 </div>
             </div>
         </div>

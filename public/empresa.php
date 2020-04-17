@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <title>JEIMMY GARCIAS</title>
+    <title>JEIMMY GARCIA</title>
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" sizes="any">
     <link rel="stylesheet" type="text/css" href="./assets/css/bundle.min.css">
 </head>
@@ -21,7 +21,7 @@
             <div class="row flex-column-reverse flex-lg-row">
                 <div class="col-12 col-lg-5 pl-lg-5 pt-190 text-center wow slideInLeft" data-wow-delay="0.5s">
                     <h2><?= ($lang)? 'Nuestra<br><span>Empresa</span>' : 'La nostra<br><span>Empresa</span>' ?></h2>
-                    <p class="text-center"><?= ($lang)? "Para nosotros, nuestros pacientes son el alma de nuestra consulta, es por ello que ponemos todos nuestros esfuerzos y conocimientos para brindar a cada persona un tratamiento personalizado y adecuado para mejorar su condición física." : "Per a nosaltres, els nostres pacients són l'ànima de la nostra consulta, és per aquest motiu que posem tots els nostres esforços i coneixements per a oferir a cada persona un tractament personalitzat i adequat per a millorar la seva condició física." ?></p>
+                    <p><?= ($lang)? "Para nosotros, nuestros pacientes son el alma de nuestra consulta, es por ello que ponemos todos nuestros esfuerzos y conocimientos para brindar a cada persona un tratamiento personalizado y adecuado para mejorar su condición física." : "Per a nosaltres, els nostres pacients són l'ànima de la nostra consulta, és per aquest motiu que posem tots els nostres esforços i coneixements per a oferir a cada persona un tractament personalitzat i adequat per a millorar la seva condició física." ?></p>
                     <img src="./assets/img/image-empresa-border.png" class="img-border d-none d-lg-inline-block">
                 </div>
                 <div class="col-12 col-lg-7 pl-lg-5 wow slideInRight" data-wow-delay="0.5s">
