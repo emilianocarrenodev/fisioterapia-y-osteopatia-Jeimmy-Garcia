@@ -62,7 +62,7 @@
         <div class="container wow fadeIn" data-wow-delay="0.5s">
             <div class="row">
                 <div class="col-12">
-                    <h2>JEIMMY GARCÍA</h2>
+                    <h2>JEIMMY GARCIA</h2>
                 </div>
             </div>
             <div class="row">

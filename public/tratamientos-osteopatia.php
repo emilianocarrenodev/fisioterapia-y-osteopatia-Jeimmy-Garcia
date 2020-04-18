@@ -75,6 +75,12 @@
                                 <p><?= ($lang)? "Enfocada en la valoración y el tratamiento de patologías del sistema orofacial y respiratorio tales como bronquitis, disfagias, problemas del habla, problemas de ATM,  obstrucción de lagrimales." : "Enfocada en la valoració i el tractament de patologies del sistema orofacial i respiratori com ara bronquitis, disfàgies, problemes de la parla, problemes d'ATM, obstrucció de lacrimals." ?></p>
                             </div>
                         </div>
+                        <div class="row wow slideInLeft" data-wow-delay="0.5s">
+                            <div class="col-12 col-lg-6 pr-3 pr-lg-5">
+                                <h3><?= ($lang)? "Osteopatía<br>para el sistema<br>uroginecológico" : "Osteopatía<br>para el sistema<br>uroginecológico" ?></h3>
+                                <p><?= ($lang)? "Enfocadas en la valoración y tratamiento del aparato uroginecológico tales como infecciones urinarias recurrentes, incontinencias urinarias, fecales y gases, problemas menstruales y de fertilidad, endometriosis, prolapsos, dispareunia (dolor en las relaciones sexuales), problemas en el suelo pélvico, entre otros." : "Enfocadas en la valoración y tratamiento del aparato uroginecológico tales como infecciones urinarias recurrentes, incontinencias urinarias, fecales y gases, problemas menstruales y de fertilidad, endometriosis, prolapsos, dispareunia (dolor en las relaciones sexuales), problemas en el suelo pélvico, entre otros." ?></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-12 col-lg-4 pl-3 pl-lg-5">
                         <div class="row">

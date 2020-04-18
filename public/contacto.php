@@ -40,7 +40,7 @@
                     <form id="form-contact" action="sendmail.php" method="POST">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="<?= ($lang)? "Nombre" : "Nom" ?>" name="name" aria-describedby="help-name" required>
-                            <small id="help-name" class="form-text text-muted"><?= ($lang)? "Tu nombre completo" : "El teu nom complet" ?></small>
+                            <small id="help-name" class="form-text text-muted"><?= ($lang)? "Tu nombre completo" : "El teu nom complert" ?></small>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" placeholder="@" name="email" aria-describedby="help-email" required>
