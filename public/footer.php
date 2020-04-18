@@ -14,8 +14,8 @@
                     <p><?= ($lang)? 'CONSULTORIO' : 'CONSULTORI' ?><br>Passatge Marimon 7 principal primera Barcelona - <?= ($lang)? 'Código' : 'Codi' ?> postal 08021 - <?= ($lang)? 'España' : 'Espanya' ?></p>
                     <p><?= ($lang)? 'CONTACTO' : 'CONTACTE' ?><br>
                         <?= ($lang)? 'Fijo' : 'Fixe' ?>: <a href="tel:+34932094435" target="_self">+34 932 09 44 35</a><br>
-                        <?= ($lang)? 'móvil' : 'mòbil' ?>: <a href="tel:+34684307775" target="_self">+34 684 30 77 75</a><br>
-                        <?= ($lang)? 'email' : 'Email' ?>: <a href="mailto:fisio.osteojm@gmail.com" target="_self">fisio.osteojm@gmail.com</a>
+                        <?= ($lang)? 'Móvil' : 'Mòbil' ?>: <a href="tel:+34684307775" target="_self">+34 684 30 77 75</a><br>
+                        <?= ($lang)? 'Email' : 'Email' ?>: <a href="mailto:fisio.osteojm@gmail.com" target="_self">fisio.osteojm@gmail.com</a>
                     </p>
                 </div>
             </div>
