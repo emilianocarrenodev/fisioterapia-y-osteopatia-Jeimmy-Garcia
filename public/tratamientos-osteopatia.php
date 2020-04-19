@@ -77,8 +77,8 @@
                         </div>
                         <div class="row wow slideInLeft" data-wow-delay="0.5s">
                             <div class="col-12 col-lg-6 pr-3 pr-lg-5">
-                                <h3><?= ($lang)? "Osteopatía<br>para el sistema<br>uroginecológico" : "Osteopatía<br>para el sistema<br>uroginecológico" ?></h3>
-                                <p><?= ($lang)? "Enfocadas en la valoración y tratamiento del aparato uroginecológico tales como infecciones urinarias recurrentes, incontinencias urinarias, fecales y gases, problemas menstruales y de fertilidad, endometriosis, prolapsos, dispareunia (dolor en las relaciones sexuales), problemas en el suelo pélvico, entre otros." : "Enfocadas en la valoración y tratamiento del aparato uroginecológico tales como infecciones urinarias recurrentes, incontinencias urinarias, fecales y gases, problemas menstruales y de fertilidad, endometriosis, prolapsos, dispareunia (dolor en las relaciones sexuales), problemas en el suelo pélvico, entre otros." ?></p>
+                                <h3><?= ($lang)? "Osteopatía<br>para el sistema<br>uroginecológico" : "Osteopatia<br>per al sistema<br>uroginecològic" ?></h3>
+                                <p><?= ($lang)? "Enfocadas en la valoración y tratamiento del aparato uroginecológico tales como infecciones urinarias recurrentes, incontinencias urinarias, fecales y gases, problemas menstruales y de fertilidad, endometriosis, prolapsos, dispareunia (dolor en las relaciones sexuales), problemas en el suelo pélvico, entre otros." : "Enfocades en la valoració i tractament de l'aparell uroginecològic com ara infeccions urinàries recurrents, incontinències urinàries, fecals i gasos, problemes menstruals i de fertilitat, endometriosi, prolapses, disparèunia (dolor en les relacions sexuals), problemes al sòl pèlvic, entre d'altres." ?></p>
                             </div>
                         </div>
                     </div>
