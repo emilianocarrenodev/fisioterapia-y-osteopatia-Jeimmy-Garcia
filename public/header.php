@@ -43,7 +43,7 @@
                             <a class="nav-link" href="./contacto.php?lang=<?= ($lang)? "es" : "ca" ?>"><?= ($lang)? 'CONTACTO' :'CONTACTE' ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="?lang=<?= ($lang)? "ca" : "es" ?>"><?= ($lang)? 'ESPAÑOL' :'CATALÁN' ?></a>
+                            <a class="nav-link" href="?lang=<?= ($lang)? "ca" : "es" ?>"><?= ($lang)? 'ESPAÑOL' :'CATALÀ' ?></a>
                         </li>
                     </ul>
                 </div>
